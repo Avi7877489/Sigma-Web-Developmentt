@@ -1,0 +1,11 @@
+.box{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    border: 2px solid black;
+}
+body{
+    background-color: rgb(184, 207, 103);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Froms - Lets Learn It</title>
+</head>
+
+<body>
+    <h1>From to apply for Sigma Web Development Course - TA</h1>
+
+    <form action="POST">
+        <div>
+            <label for="name">Enter Your Name <span style="color: red;">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required autofocus
+                pattern="[a-zA-Z0-9]+">
+        </div>
+        <div>
+            <label for="male">Male <span style="color: red;">*</span></label>
+            <input type="radio" id="male" name="gender" value="male" autofocus required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female">
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to Newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter Your comment</label><br>
+            <textarea name="comment" id="comment" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

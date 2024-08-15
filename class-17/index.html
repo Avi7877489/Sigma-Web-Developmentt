@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element Selector*/
+        div {
+            /* background-color: red;*/
+        }
+
+        /* Class Selector*/
+        .red {
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green {
+            background-color: green;
+
+        }
+
+        /* Child Selectors */
+        div>p {
+            background-color: aqua;
+        }
+
+        /* Descendant Selector */
+        div p {
+            background-color: aqua;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            color: black;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: aqua;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+        p:first-child {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am Second</p>
+    </main>
+    <div class="red">
+        I am a div
+        <!-- <p>I am a para inside div</p> -->
+        <article>
+            <p>I am a para inside div</p>
+        </article>
+    </div>
+    <div id="green">
+        I am another div
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.Facebook.com">Go to Facebook</a>
+    <!-- Chat Bot -->
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/b24bfac3-3fcc-42fe-884e-95062ec6e804/webchat/config.js"
+        defer></script>
+</body>
+
+</html>
